@@ -7,7 +7,7 @@ use Illuminate\Support\ServiceProvider;
 class PaypalServiceProvider extends ServiceProvider
 {
     /**
-     * Register any application services.
+     * Register paypal services.
      */
     public function register(): void
     {
@@ -15,9 +15,13 @@ class PaypalServiceProvider extends ServiceProvider
     }
 
     /**
-     * Bootstrap any application services.
+     * Bootstrap paypal application services.
      */
     public function boot(): void
     {
+        // Publish config files
+        $this->publishes([
+            __DIR__ . '/../config/config.php' => config_path('paypal.php'),
+        ]);
     }
 }
