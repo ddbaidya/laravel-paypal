@@ -1,0 +1,18 @@
+{
+    "name": "ddbaidya/laravel-paypal",
+    "description": "This Laravel package provides quick access to integrated PayPal payments. Simplify e-commerce development by effortlessly incorporating secure and reliable PayPal services into your Laravel project.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ddbaidya\\LaravelPaypal\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Debdulal Baidya",
+            "email": "ovibaidya72@gmail.com"
+        }
+    ],
+    "require": {}
+}
