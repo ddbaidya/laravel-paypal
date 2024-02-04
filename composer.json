@@ -14,5 +14,7 @@
             "email": "ovibaidya72@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "guzzlehttp/guzzle": "^7.*"
+    }
 }
